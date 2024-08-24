@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ad.css">
+</head>
+<body>
+     <div class="main">
+        <form action="" class="formAdd">
+            <div class="btns">
+                <h1>Details</h1>
+                <div class="btns b ">
+                    <a href="/admin page/admin.html" class="cancel">cancel</a>
+                    <button type="submit" class="save">save</button>
+                </div>
+            </div>
+            <input type="text" name="title" placeholder="title"><br>
+            <input type="date" name="data" placeholder="Closing data"><br>
+            <input type="text" name="Phone" placeholder="Phone number"><br>
+            <input type="text" name="location" placeholder="Location"><br>
+            <input type="text" name="categories" placeholder="categories"><br>
+            <select name="" id="">
+                <option value="all">All category</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+            </select>
+            <select name="" id="">
+                <option value="Junior">Junior</option>
+                <option value="Middle">Middle</option>
+                <option value="Senior">Senior</option>
+                <option value="Full-stack">Full-stack</option>
+            </select><br><br>
+            <textarea name="Description" id="" cols="69" rows="4" placeholder="Description"></textarea><br>
+            <textarea name="" id="" cols="69" rows="4" placeholder="Essential criteria"></textarea><br>
+            <textarea name="" id="" cols="69" rows="4" placeholder="Desirable criteria"></textarea><br>
+            <!-- <textarea name="" id="" cols="69" rows="4" placeholder="Benefits"></textarea><br> -->
+        </form>
+     </div>
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+     <script type="module" src="/add/main.js"></script>
+</body>
+</html>

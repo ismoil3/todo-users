@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/image.png">
+
+</head>
+<body>
+
+
+<div class="main">
+        <div class="categories">
+    <a class="" href="/main.html" >MAIN</a><br>
+    <a class="amain" href="/jobsearch.html">JOB SEARCH</a><br>
+    <a href="/admin page/admin.html">ADMIN</a><br>
+    <a href="/mesegeAplicants.html" >MANAGE  APPLICANTS</a><br>
+</div>
+
+<div class="rigth">
+    <button class="btnaddsil">add</button>
+    <h1  class="Letest">Letest job</h1><hr>
+    <select class="select1" name="" id="">
+        <option value="All">All category</option>
+        <option value="Frontend">Frontend</option>
+        <option value="Backend">Backend</option>
+        </select>
+        <select class="select2" name="" id="">
+            <option value="all">All level</option>
+            <option value="Junior">Junior</option>
+            <option value="Middle">Middle</option>
+            <option value="Senior">Senior</option>
+            <option value="Full-stack">Full-stack</option>
+        </select>
+    <div class="box">
+
+    </div>
+</div>
+</div>
+<dialog class="adddialog">
+    <form class="addForm">
+        <div class="btns">
+            <h1>Details</h1>
+            <button class="cancel">Cancel</button>
+            <button type="submit" class="save">Save</button>
+        </div>
+        <input name="title" type="text" placeholder="Title">
+        <input name="closing" type="date" placeholder="Closing Date">
+        <input name="level" type="text" placeholder="Level">
+        <input name="phone" type="text" placeholder="Phone Number">
+        <input name="loc" type="text" placeholder="Location">
+        <input name="Category" type="text" placeholder="Category">
+        <textarea name="description" placeholder="Description"></textarea>
+        <textarea name="eses" placeholder="Essential Criteria"></textarea>
+        <textarea name="crit" placeholder="Desirable Criteria"></textarea>
+    </form>
+</dialog>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script type="module" src="/search job/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/admin page/admin.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="categories">
+        <a href="/main.html">MAIN</a><br />
+        <a href="/jobsearch.html">JOB SEARCH</a><br />
+        <a class="amain" href="/admin.html">ADMIN</a><br />
+        <a href="/mesegeAplicants.html">MANAGE APPLICANTS</a><br />
+      </div>
+     
+      <div class="rigth" id="rigth">
+        <div class="job">
+          <h1 class="Letest">Job ad admin</h1>
+          <a href="/add/add.html" class="as">create new</a>
+        </div>
+        <br />
+        <hr />
+        <input type="text" class="search" placeholder="">
+        <table
+          style="
+            border: 1px solid black;
+            width: 100%;
+            margin: auto;
+            padding: 10px 10px;
+            margin-top: 30px;
+          "
+        >
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Category</th>
+              <th>Level</th>
+              <th>Location</th>
+              <th>Phone number</th>
+              <th>Application</th>
+              <th>Closing</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody class="box1"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/admin page/main.js"></script>
+  </body>
+</html>

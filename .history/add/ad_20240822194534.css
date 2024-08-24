@@ -1,0 +1,11 @@
+.main{
+    width: 33%;
+    margin: auto;
+    border: 1px solid black;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}

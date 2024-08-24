@@ -1,0 +1,51 @@
+.main{
+    width: 35%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+textarea{
+    margin-bottom: 10px;
+}
+select{
+    padding: 10px 20px;
+    width: 250px;
+    text-align: center;
+    margin-left: 10px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.b{
+    width: 36%;
+}
+.sav{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: ;
+}
+.cancel,.save{
+    padding: 5px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.cancel{
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+.save{
+    border: 1px solid green;
+    color: white;
+    background-color: green;
+}

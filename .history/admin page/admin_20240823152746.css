@@ -1,0 +1,64 @@
+.job {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+th{
+  text-align: start;
+}
+.search{
+  width: 25%;
+  height: 30px;
+  margin-top: 20px;
+}
+.btndelete{
+display: block;
+padding: 3px 15px;
+text-align: center;
+color: white;
+background-color: red;
+border-radius: 5px;
+border-color: red;
+
+}
+.btndelete:hover{
+  background-color: transparent;
+  color: red;
+  border-color: red;
+  transform: 1s;
+}
+.btnedit{
+  display: block;
+  padding: 3px 0px;
+  width: 50px;
+  margin-top: 4px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+  border: 1px solid gray;
+
+}
+
+.btnedit:hover{
+  background-color: transparent;
+  color: gray;
+  border-color: gray;
+  transform: 1s;
+}
+
+.editDialog{
+  width: 100%;
+}

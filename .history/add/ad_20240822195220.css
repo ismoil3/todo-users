@@ -1,0 +1,42 @@
+.main{
+    width: 35%;
+    margin: auto;
+    border: 1px solid black;
+}
+input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+textarea{
+    margin-bottom: 10px;
+}
+select{
+    padding: 10px 20px;
+    width: 250px;
+    text-align: center;
+    margin-left: 10px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('your-icon-url.svg'); /* Укажите путь к вашей иконке */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+    cursor: pointer;
+}
+
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo list</title>
+    <link rel="stylesheet" href="/admin page/admin.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/image.png" class="aaaa">
+  </head>
+  <body>
+    <div class="main">
+      <div class="categories">
+        <a href="/main.html">MAIN</a><br />
+        <a href="/jobsearch.html">JOB SEARCH</a><br />
+        <a class="amain" href="/admin.html">ADMIN</a><br />
+        <a href="/mesegeAplicants.html">MANAGE APPLICANTS</a><br />
+      </div>
+
+      <div class="rigth" id="rigth">
+        <div class="job">
+          <h1 class="Letest">Job ad admin</h1>
+          <a href="/add/add.html" class="as">create new</a>
+        </div>
+        <br />
+        <hr />
+        <input type="search" class="search" placeholder="Name" />
+        <table
+          style="
+            border: 1px solid black;
+            width: 100%;
+            margin: auto;
+            padding: 10px 10px;
+            margin-top: 30px;
+          "
+        >
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Category</th>
+              <th>Level</th>
+              <th>Location</th>
+              <th>Phone number</th>
+              <th>Application</th>
+              <th>Closing</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody class="box1"></tbody>
+        </table>
+      </div>
+    </div>
+
+
+
+    <dialog class="editDialog">
+      <div class="main1">
+        <form action="" class="formedit">
+          <div class="btns">
+            <h1>Details</h1>
+            <div class="btns b">
+              <a class="cancel">cancel</a>
+              <button type="submit" class="save">save</button>
+              
+            </div>
+          </div>
+          <input type="text" maxlength="15" name="edittitle" placeholder="title" /><br />
+          <!-- <input type="date" name="data" placeholder="Closing data"><br> -->
+          <input type="text" maxlength="15" name="editPhone" placeholder="Phone number" /><br />
+          <input type="text" maxlength="15" name="editlocation" placeholder="Location" /><br />
+          <input type="text" maxlength="20" name="editapp" placeholder="Application-name" /><br />
+          <select name="" id="" class="editselect1">
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+          </select>
+          <select name="" id="" class="editselect2">
+            <option value="all">all</option>
+            <option value="Junior">Junior</option>
+            <option value="Middle">Middle</option>
+            <option value="Senior">Senior</option>
+            <option value="Full-stack">Full-stack</option></select
+          ><br /><br />
+          <textarea
+            class="editDescription"
+            id=""
+            cols="69"
+            rows="4"
+            placeholder="Description"
+          ></textarea
+          ><br />
+          <textarea
+            class="editEssential"
+            id=""
+            cols="69"
+            rows="4"
+            placeholder="Essential criteria"
+          ></textarea
+          ><br />
+          <textarea
+            class="editcriteria"
+            id=""
+            cols="69"
+            rows="4"
+            placeholder="Desirable criteria"
+          ></textarea
+          ><br />
+          <!-- <textarea name="" id="" cols="69" rows="4" placeholder="Benefits"></textarea><br> -->
+        </form>
+      </div>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/admin page/main.js"></script>
+  </body>
+</html>

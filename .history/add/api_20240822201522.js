@@ -1,0 +1,2 @@
+import { Get } from "../";
+Get()
